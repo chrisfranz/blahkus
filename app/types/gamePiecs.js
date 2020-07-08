@@ -4,16 +4,18 @@ const gamePieces = [
         canRotate90: false,
         canFlipXAxis: false,
         canFlipYAxis: false,
+        hasBeenPlayed: false,
         size: 1,
         shape: [
             [ 1 ]
-        ]
+        ],
     },
     {
         pieceNumber: 2,
         canRotate90: true,
         canFlipXAxis: false,
         canFlipYAxis: false,
+        hasBeenPlayed: false,
         size: 2,
         shape: [
             [ 1, 1 ]
@@ -24,6 +26,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: false,
         canFlipYAxis: false,
+        hasBeenPlayed: false,
         size: 3,
         shape: [
             [ 1, 1, 1 ]
@@ -34,6 +37,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: false,
         canFlipYAxis: false,
+        hasBeenPlayed: false,
         size: 3,
         shape: [
             [ 1, 1, ],
@@ -45,6 +49,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: false,
         canFlipYAxis: false,
+        hasBeenPlayed: false,
         size: 3,
         shape: [
             [ 1, 1, ],
@@ -56,6 +61,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: true,
         canFlipYAxis: true,
+        hasBeenPlayed: false,
         size: 4,
         shape: [
             [ 1, 1, 1, 1 ]
@@ -65,6 +71,7 @@ const gamePieces = [
         pieceNumber: 6,
         canRotate90: true,
         canFlipXAxis: true,
+        hasBeenPlayed: false,
         canFlipYAxis: true,
         size: 4,
         shape: [
@@ -77,6 +84,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: true,
         canFlipYAxis: true,
+        hasBeenPlayed: false,
         size: 4,
         shape: [
             [ 1, 1, 1 ],
@@ -88,6 +96,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: true,
         canFlipYAxis: true,
+        hasBeenPlayed: false,
         size: 4,
         shape: [
             [ 1, 1, 1 ],
@@ -99,6 +108,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: true,
         canFlipYAxis: true,
+        hasBeenPlayed: false,
         size: 4,
         shape: [
             [ 1, 1, 0 ],
@@ -110,6 +120,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: false,
         canFlipYAxis: false,
+        hasBeenPlayed: false,
         size: 5,
         shape: [
             [ 1, 1, 1, 1, 1 ]
@@ -120,6 +131,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: true,
         canFlipYAxis: true,
+        hasBeenPlayed: false,
         size: 5,
         shape: [
             [ 1, 1, 1, 1 ],
@@ -131,6 +143,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: true,
         canFlipYAxis: true,
+        hasBeenPlayed: false,
         size: 5,
         shape: [
             [ 1, 1, 1, 1 ],
@@ -142,6 +155,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: true,
         canFlipYAxis: true,
+        hasBeenPlayed: false,
         size: 5,
         shape: [
             [ 1, 1, 1 ],
@@ -153,6 +167,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: true,
         canFlipYAxis: true,
+        hasBeenPlayed: false,
         size: 5,
         shape: [
             [ 1, 1, 1 ],
@@ -164,6 +179,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: true,
         canFlipYAxis: true,
+        hasBeenPlayed: false,
         size: 5,
         shape: [
             [ 0, 1, 0 ],
@@ -176,6 +192,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: true,
         canFlipYAxis: true,
+        hasBeenPlayed: false,
         size: 5,
         shape: [
             [ 1, 1, 0 ],
@@ -188,6 +205,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: true,
         canFlipYAxis: true,
+        hasBeenPlayed: false,
         size: 5,
         shape: [
             [ 1, 1, 0 ],
@@ -200,6 +218,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: true,
         canFlipYAxis: true,
+        hasBeenPlayed: false,
         size: 5,
         shape: [
             [ 0, 1, 0 ],
@@ -212,6 +231,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: true,
         canFlipYAxis: true,
+        hasBeenPlayed: false,
         size: 5,
         shape: [
             [ 1, 0, 0 ],
@@ -224,6 +244,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: true,
         canFlipYAxis: true,
+        hasBeenPlayed: false,
         size: 5,
         shape: [
             [ 1, 0, 0 ],
@@ -236,6 +257,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: true,
         canFlipYAxis: true,
+        hasBeenPlayed: false,
         size: 5,
         shape: [
             [ 1, 1, 1, 0 ],
@@ -247,6 +269,7 @@ const gamePieces = [
         canRotate90: true,
         canFlipXAxis: true,
         canFlipYAxis: true,
+        hasBeenPlayed: false,
         size: 5,
         shape: [
             [ 1, 1, 1, 0 ],
